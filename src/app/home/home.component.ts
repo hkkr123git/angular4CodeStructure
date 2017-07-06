@@ -21,8 +21,8 @@ export class HomeComponent implements OnInit {
       .subscribe(
         result => this.result = result,
         error =>  this.error = <any>error);
-      // let link = ['home/dashboard'];
-      // this.router.navigate(link);
+    let link = ['home/dashboard'];
+    this.router.navigate(link);
   }
 
 }
