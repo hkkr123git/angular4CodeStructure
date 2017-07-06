@@ -1,4 +1,4 @@
-{
+﻿{
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
     "name": "sample"
@@ -19,9 +19,21 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/css/bootstrap/bootstrap.css",
+        "assets/css/bootstrap-extend/bootstrap-extend.css",
+        "assets/css/site/site.css",
+        "assets/js/formvalidation/formValidation.min.css",
+        "assets/css/forms/validation.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/babel-external-helpers/babel-external-helpers.js",
+        "assets/js/jquery/jquery.js",
+        "assets/js/tether/tether.js",
+        "assets/js/bootstrap/bootstrap.js",
+        "assets/js/formvalidation/formValidation.min.js",
+        "assets/js/formvalidation/framework/bootstrap4.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
