@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
 
-import { HomeRoutingModule } from '../home.routing.module';
+import { DashboardRoutingModule } from './dashboard.routing.module';
 import { Util } from '../../utils/util.service';
 import { ApiURLConstants } from '../../utils/apiUrlConstants.service';
 import { ApiService } from '../../utils/apiService.service';
@@ -16,7 +16,7 @@ import { DashboardComponent } from '../../home/dashboard/dashboard.component';
     imports: [
         BrowserModule,
         HttpModule,
-        HomeRoutingModule
+        DashboardRoutingModule
     ],
     providers: [
         Util,
